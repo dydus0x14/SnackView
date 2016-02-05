@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target 'SnackViewExample' do
+	use_frameworks!
+	pod 'Cartography', :git => 'https://github.com/robb/Cartography.git', :tag => '0.6.0-beta1'
+end
+
